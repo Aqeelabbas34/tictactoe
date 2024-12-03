@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@drawable/bg_img"
+    tools:context=".MainMenu">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Choose Mode"
+        android:background="@drawable/button_boxbg"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:alpha="0.6"
+        android:textColor="#71470B"
+        android:layout_marginTop="70dp"/>
+    <Button
+        android:id="@+id/multiplayerID"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_above="@+id/singelID"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_boxbg"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:backgroundTint="#C4E46D"
+        android:text="Multiplayer"/>
+    <Button
+        android:id="@+id/singelID"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:backgroundTint="@null"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_boxbg"
+        android:textColor="@color/black"
+        android:backgroundTint="#C4E46D"
+        android:text="Single"/>
+
+
+</RelativeLayout>
