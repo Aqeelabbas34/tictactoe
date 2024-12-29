@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
     private var player2=0
     private var isSinglePlayer= false
     private val gameState = IntArray(9) {0}
+    //set of wining positions
     private val winningPosition= arrayOf(
         intArrayOf(0,1,2),
         intArrayOf(3,4,5),
