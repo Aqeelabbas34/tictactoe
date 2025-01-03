@@ -60,6 +60,7 @@ class MainActivity : AppCompatActivity() {
        }
 
     }
+    //play game function
     private fun playGame(view: View,index: Int) {
 
         val button= view as Button
